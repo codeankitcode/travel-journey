@@ -1,0 +1,72 @@
+
+/* Nav styles here */
+.navbar{
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.075em;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.navbar >p{
+  margin-left: 7px;
+}
+
+
+/* Card style  */
+
+.card{
+  display: flex;
+  width: 471px;
+  align-items: center;
+  padding: 36px 0 0; 
+  margin: auto;
+
+}
+
+.card-img{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  
+}
+.card-details{
+  margin-left: 19px;
+}
+.card-details > h1{
+  font-size: 25px;
+color: #2B283A;
+margin: 7px 0 16px;
+}
+.card-details > p{
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+margin: 9px 0;
+}
+
+.card-date{
+  font-weight: 700;
+}
+
+/* location style */
+.location{
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #2B283A;
+}
+.location-text{
+  letter-spacing: 0.17em;
+  margin: 0 4px;
+
+}
+
+.location > a{
+  color: #918E9B;
+
+}
